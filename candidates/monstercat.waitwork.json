@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "id": "monstercat.waitwork",
+  "publisher": "monstercat",
+  "version": "0.6.2",
+  "name": "Wait Work",
+  "description": "等一会工作，休息一下。支持本地 TXT、EPUB、MOBI 与自定义书源在线阅读、章节目录、阅读设置和自动保存，切换页面自动收起正文。",
+  "icon": "https://raw.githubusercontent.com/ragdollcb/waitWork/v0.6.2/assets/plugin.svg",
+  "tags": [
+    "productivity",
+    "reader"
+  ],
+  "source": "https://github.com/ragdollcb/waitWork/tree/v0.6.2",
+  "homepage": "https://github.com/ragdollcb/waitWork",
+  "license": "Apache-2.0",
+  "releaseNotes": "支持 TXT、EPUB、MOBI 本地阅读及自定义书源在线搜索、按章阅读与缓存；修复在线正文滚动回弹；大纲支持向上和向下滚动自动加载章节，向上加载保持可见位置，搜索结果也可继续加载。",
+  "localizations": {
+    "zh-CN": {
+      "name": "Wait Work",
+      "description": "等一会工作，休息一下。支持本地 TXT、EPUB、MOBI 与自定义书源在线阅读、章节目录、阅读设置和自动保存，切换页面自动收起正文。"
+    }
+  },
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-darwin-arm64.dbxp",
+      "sha256": "76db77cb5543e761b978065bc2275361dadfea770ab2ced0401c60d4f41c072a",
+      "size": 5810921
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-darwin-x64.dbxp",
+      "sha256": "9ec6d264fe2dd4f78d92262d3cdc0627062c6a4f1308d025fbbb332f8f1aca2d",
+      "size": 6161458
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-linux-arm64.dbxp",
+      "sha256": "1d082cbef42500501437757a4376aebdddc54304537c655383acad4a0f4c4aac",
+      "size": 5538638
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-linux-x64.dbxp",
+      "sha256": "4a13537320d6f10bf10f659a8f2faa88613f8cc8507d32fbae433ade3fd15671",
+      "size": 6004934
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-windows-arm64.dbxp",
+      "sha256": "b8ac77ef40ee065c162b4803c338906a5388189e399846ba420cf576f1b3019d",
+      "size": 5558890
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.2/monstercat.waitwork-0.6.2-windows-x64.dbxp",
+      "sha256": "02f80f04b2d5573183bc520e0a081866be761a65288472b65c56ddff8e2c30ab",
+      "size": 6058787
+    }
+  ]
+}
