@@ -1,0 +1,69 @@
+{
+  "schemaVersion": 1,
+  "id": "monstercat.waitwork",
+  "publisher": "monstercat",
+  "version": "0.6.4",
+  "name": "Wait Work",
+  "description": "Work a while, rest a while. Read local TXT, EPUB and MOBI books or online books from custom sources, with chapter caching and autosave. Customize and save the SQL cover, result table and labels; reading folds away automatically when switching pages.",
+  "icon": "https://raw.githubusercontent.com/ragdollcb/waitWork/v0.6.4/assets/plugin.svg",
+  "tags": [
+    "productivity",
+    "reader"
+  ],
+  "source": "https://github.com/ragdollcb/waitWork/tree/v0.6.4",
+  "homepage": "https://github.com/ragdollcb/waitWork",
+  "license": "Apache-2.0",
+  "localizations": {
+    "zh-CN": {
+      "name": "Wait Work",
+      "description": "等一会工作，休息一下。支持 TXT、EPUB、MOBI 与自定义书源在线阅读、章节缓存和自动保存；可自定义 SQL、结果表与标签并保存，切换页面自动收起正文。"
+    },
+    "zh": {
+      "name": "Wait Work",
+      "description": "等一会工作，休息一下。支持本地 TXT、EPUB、MOBI 与自定义书源在线阅读、章节目录、阅读设置和自动保存，切换页面自动收起正文。"
+    },
+    "en": {
+      "name": "Wait Work",
+      "description": "Work a while, rest a while. Read local TXT, EPUB and MOBI books, or stream online books from custom sources — with chapter outlines, reading settings, autosave, and body text that folds away automatically when you switch pages."
+    }
+  },
+  "releaseNotes": "新增伪装内容自定义与自动保存：可编辑 SQL、查询名称、连接显示名和结果标签名称，并粘贴含表头的结果表，保留前导零、空值和多行文本；内容独立保存到 query-cover.json，重新打开自动恢复，支持保存失败重试、同一后端的版本冲突保护及恢复预置查询。保持 Esc 切换、失焦自动收起、书架和阅读进度保存行为。",
+  "targets": [
+    {
+      "target": "darwin-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-darwin-arm64.dbxp",
+      "sha256": "1ee1fabc76ec502e56e4ada4b3d5a765e16975748e76e73f521da909a910bb3b",
+      "size": 5820981
+    },
+    {
+      "target": "darwin-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-darwin-x64.dbxp",
+      "sha256": "98700d05f49936c75deb00cb478eed22025b8d9193f1bdd653cc5c0d620e169e",
+      "size": 6171172
+    },
+    {
+      "target": "linux-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-linux-arm64.dbxp",
+      "sha256": "a3b639ed7d1748c7bf672734b35bb331fbf073ac511476f192463d9c9d87dfd0",
+      "size": 5547138
+    },
+    {
+      "target": "linux-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-linux-x64.dbxp",
+      "sha256": "c0d0b91202bae03508464d755f232728fd479bbb49e274d1e65d9469cc2c39bc",
+      "size": 6016172
+    },
+    {
+      "target": "windows-arm64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-windows-arm64.dbxp",
+      "sha256": "2b9b62625233fe902116fa29f4647bbf151b41d7d2821aad6a2c6ae88337eecb",
+      "size": 5571125
+    },
+    {
+      "target": "windows-x64",
+      "url": "https://github.com/ragdollcb/waitWork/releases/download/v0.6.4/monstercat.waitwork-0.6.4-windows-x64.dbxp",
+      "sha256": "0243c39086df991d2d4c9f29bfa29a717ea2564749e4c7e06eb5187425a75863",
+      "size": 6072787
+    }
+  ]
+}
